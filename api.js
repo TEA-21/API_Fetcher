@@ -22,8 +22,6 @@ fetchUsers();
 
 async function createUser(userData) {
   try {
-    // Note: The videos did not teach how to send a 'POST' request or a 'body'.
-    // This function will only fetch the URL, not send the userData.
     const response = await apiFetcher(
       'https://jsonplaceholder.typicode.com/users'
     );
